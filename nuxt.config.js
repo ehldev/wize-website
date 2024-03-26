@@ -18,7 +18,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css'},
       { href: 'https://fonts.googleapis.com', crossorigin: true },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }
     ]
   },
 
@@ -32,6 +33,14 @@ export default {
     {
       src: "@/plugins/swiper.js",
       mode: "client"
+    },
+    {
+      src: "@/plugins/aos.js",
+      mode: "client"
+    },
+    {
+      src: "@/plugins/vue-smooth-scroll.js",
+      mode: "client",
     }
   ],
 

@@ -1,8 +1,8 @@
 <template>
-  <section class="container mt-[60px] md:mt-[226px] mx-auto">
-    <h3 class="text-base text-wize-primary font-medium">Testimonios</h3>
+  <section id="testimonies" class="container mt-[60px] md:mt-[140px] mx-auto">
+    <h3 class="text-base text-wize-primary font-medium" data-aos="zoom-in">Testimonios</h3>
 
-    <h2 class="text-3xl tracking-[-1.92px] font-semibold mt-4 md:text-5xl">
+    <h2 class="text-3xl tracking-[-1.92px] font-semibold mt-4 md:text-5xl" data-aos="zoom-in" data-aos-delay="500">
       Opiniones de nuestros clientes
     </h2>
 
@@ -13,7 +13,7 @@
     </p>
 
     <!-- Mobile -->
-    <swiper class="swiper swiper-testimonials mt-[62px] lg:hidden" :options="swiperOptionMobile">
+    <swiper class="swiper swiper-testimonials mt-[62px] lg:hidden" :options="swiperOptionMobile" data-aos="zoom-in" data-aos-delay="500">
       <swiper-slide
         class="flex justify-center items-center"
         v-for="item in 4"
@@ -40,6 +40,7 @@
     <swiper
       class="swiper swiper-testimonials hidden mt-[62px] md:mt-[18px] lg:block"
       :options="swiperOptionDesktop"
+      data-aos="zoom-in" data-aos-delay="700"
     >
       <swiper-slide
         class="flex justify-center items-center"

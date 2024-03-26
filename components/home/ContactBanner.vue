@@ -6,11 +6,12 @@
       <div class="text-center lg:text-left">
         <h3
           class="text-[40px] leading-[114%] tracking-[-1.6px] text-white font-semibold lg:w-[556px]"
+          data-aos="zoom-in"
         >
           ¿Listo para llevar a tu <br> empresa al siguiente nivel?
         </h3>
 
-        <button type="button" class="h-11 bg-wize-gray-2 text-white mt-11 px-6 rounded-md">
+        <button type="button" class="h-11 bg-wize-gray-2 text-white mt-11 px-6 rounded-md" data-aos="zoom-in" data-aos-delay="700">
           Contáctanos
         </button>
       </div>
@@ -21,16 +22,18 @@
         <div class="flex flex-col justify-center items-center">
           <span
             class="inline-block bg-white text-base text-wize-gray-2 font-normal py-2 px-3 rounded-tl-[50px] rounded-tr-[50px] rounded-br-none rounded-bl-[50px]"
+            data-aos="zoom-in-down" data-aos-delay="700"
             >👋 Hola, mi nombre es Gean de Wize</span
           >
           <span
             class="inline-block bg-white text-base text-wize-gray-2 font-normal mt-5 py-2 px-3 rounded-tl-[50px] rounded-tr-[50px] rounded-br-none rounded-bl-[50px]"
+            data-aos="zoom-in-down" data-aos-delay="800"
             >¿En qué puedo ayudarte hoy?</span
           >
         </div>
 
         <div class="flex justify-end">
-          <img src="@/assets/images/contact/user.svg" alt="Wize - Contacto" />
+          <img src="@/assets/images/contact/user.svg" alt="Wize - Contacto" data-aos="zoom-in-down" data-aos-delay="700" />
         </div>
       </div>
     </div>

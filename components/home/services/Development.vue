@@ -1,5 +1,5 @@
 <template>
-  <div class="md:grid md:grid-cols-2">
+  <div class="md:grid md:grid-cols-2 animate__animated animate__fadeIn">
     <div>
       <h3 class="text-4xl font-semibold">Desarrollo</h3>
 
@@ -24,7 +24,7 @@
     </div>
 
     <div>
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text">
+      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" data-aos="zoom-in">
     </div>
   </div>
 </template>

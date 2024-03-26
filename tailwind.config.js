@@ -26,8 +26,8 @@ module.exports = {
         DEFAULT: '24px',
         md: '36px',
         lg: '36px',
-        xl: '36px',
-        '2xl': '36px',
+        xl: '0px',
+        '2xl': '0px',
       },
     },
     extend: {

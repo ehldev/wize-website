@@ -1,5 +1,5 @@
 <template>
-  <div class="md:grid md:grid-cols-2">
+  <div class="md:grid md:grid-cols-2 animate__animated animate__fadeIn">
     <div>
       <h3 class="text-4xl font-semibold">Branding e Identidad</h3>
 
@@ -24,7 +24,7 @@
     </div>
 
     <div class="mt-4 md:mt-0">
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0">
+      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0" data-aos="zoom-in">
     </div>
   </div>
 </template>

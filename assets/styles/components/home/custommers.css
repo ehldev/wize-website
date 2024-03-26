@@ -1,0 +1,3 @@
+.custommers .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply bg-wize-primary;
+}

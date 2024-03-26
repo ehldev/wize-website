@@ -1,8 +1,8 @@
 <template>
-  <section class="container mt-[60px] mx-auto">
+  <section id="services" class="container mt-[60px] mx-auto">
     <h3 class="text-base text-wize-primary font-medium">Nuestros Servicios</h3>
     <div class="bg-wize-gray-2 mt-4 py-8 px-8 relative md:py-20 md:px-20 rounded-xl">
-      <h2 class="text-3xl text-white font-semibold text-center md:text-5xl">
+      <h2 class="text-3xl text-white font-semibold text-center md:text-5xl" data-aos="zoom-in">
         Explora nuestra gama de servicios personalizados para impulsar el
         crecimiento y el éxito de tu empresa
       </h2>

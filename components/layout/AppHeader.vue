@@ -8,19 +8,48 @@
           class="w-full header-nav fixed top-[70px] z-50 bg-white py-8 md:w-auto md:h-auto md:relative transition-all md:top-0 md:right-0"
           :class="isActive ? 'right-0 z-50' : '-right-full'"
         >
-          <div class="container h-full flex flex-col justify-between md:flex-row md:px-0">
-            <section class="flex flex-col md:flex-row">
-              <a href="/" class="header-link mr-6">Portada</a>
-              <a href="/" class="header-link mr-6">Nosotros</a>
-              <a href="/" class="header-link mr-6">Servicios</a>
-              <a href="/" class="header-link mr-6">Portafolio</a>
-              <a href="/" class="header-link mr-6">Testimonios</a>
+          <div
+            class="container h-full flex flex-col justify-between md:flex-row md:px-0"
+          >
+            <section
+              class="flex flex-col md:flex-row animate__animated animate__fadeIn"
+            >
+              <a
+                href="/"
+                class="header-link mr-8"
+                @click.prevent="redirectTo('home')"
+                >Portada</a
+              >
+              <a
+                href="/"
+                class="header-link mr-8"
+                @click.prevent="redirectTo('about')"
+                >Nosotros</a
+              >
+              <a
+                href="/"
+                class="header-link mr-8"
+                @click.prevent="redirectTo('services')"
+                >Servicios</a
+              >
+              <a
+                href="/"
+                class="header-link mr-8"
+                @click.prevent="redirectTo('projects')"
+                >Portafolio</a
+              >
+              <a
+                href="/"
+                class="header-link mr-8"
+                @click.prevent="redirectTo('testimonies')"
+                >Testimonios</a
+              >
             </section>
 
             <!-- Mobile -->
             <button
               type="button"
-              class="h-[44px] md:hidden text-white bg-wize-primary px-6 rounded-md"
+              class="h-[44px] md:hidden text-white bg-wize-primary px-6 rounded-md animate__animated animate__zoomIn animate__delay-1s"
             >
               Contáctanos
             </button>
@@ -57,6 +86,21 @@ export default {
     return {
       isActive: false,
     };
+  },
+  methods: {
+    redirectTo(container) {
+      this.isActive = false;
+
+      setTimeout(() => {
+        const myEl = document.getElementById(container);
+
+        this.$smoothScroll({
+          scrollTo: myEl,
+          updateHistory: false,
+          offset: -25
+        });
+      }, 400);
+    },
   },
 };
 </script>

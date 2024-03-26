@@ -1,9 +1,9 @@
 .swiper-platforms {
-  @apply max-w-[954px];
+  @apply h-[700px] lg:h-[380px] lg:max-w-[954px];
 
   .swiper-custom-prev,
   .swiper-custom-next {
-    @apply w-8 h-8 bg-wize-primary rounded-full absolute top-2/4 !important;
+    @apply w-8 h-8 bg-wize-primary rounded-full absolute top-6 lg:top-2/4 !important;
 
     &::after {
       content: "" !important;
@@ -11,12 +11,20 @@
   }
 
   .swiper-custom-prev {
-    @apply left-5 lg:left-10 right-auto !important;
+    @apply right-10 left-auto lg:left-10 lg:right-auto !important;
   }
 
   .swiper-custom-next {
-    @apply right-5 lg:right-10 left-auto !important;
+    @apply right-0 left-auto lg:right-10 !important;
   }
+
+  /* .swiper-custom-prev {
+    @apply right-10 left-auto !important;
+  }
+
+  .swiper-custom-next {
+    @apply right-0 left-auto !important;
+  } */
 
   .swiper-button-disabled {
     @apply bg-wize-dark-2 opacity-100 cursor-not-allowed !important;

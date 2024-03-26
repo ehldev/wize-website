@@ -1,19 +1,20 @@
 <template>
-  <section class="mt-4">
+  <section id="projects" class="container mt-4 mx-auto">
     <div class="text-center">
-      <h3 class="text-base text-wize-primary font-medium">
+      <h3 class="text-base text-wize-primary font-medium" data-aos="zoom-in">
         Nuestras plataformas
       </h3>
 
       <h2
         class="text-3xl tracking-[-1.92px] font-semibold mt-4 md:mt-2 md:text-[40px] lg:max-w-[954px] lg:mx-auto"
+        data-aos="zoom-in" data-aos-delay="500"
       >
         Explora nuestras plataformas para descubrir cómo potencian los negocios
         de nuestros clientes
       </h2>
     </div>
 
-    <swiper class="swiper swiper-platforms mt-10" :options="swiperOptions">
+    <swiper class="swiper swiper-platforms mt-10" :options="swiperOptions" data-aos="zoom-in" data-aos-delay="700">
       <swiper-slide
         class="flex justify-center items-center"
         v-for="(item, i) in platformsList"
@@ -51,10 +52,10 @@ export default {
           nextEl: ".swiper-custom-next",
           prevEl: ".swiper-custom-prev",
         },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        }
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false
+        // }
       },
       platformsList: [
         {
