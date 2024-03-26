@@ -46,19 +46,19 @@
     </div>
 
     <!-- Desktop -->
-    <div class="hidden mt-8 text-center lg:grid md:grid-cols-5">
-      <div
-        class="flex justify-center items-center mb-6 md:mb-0"
-        v-for="(item, i) in list"
-        :key="i"
-        data-aos="zoom-in"
-        :data-aos-delay="i * 100"
-      >
-        <img
-          :src="require(`@/assets/images/custommers/${item}`)"
-          alt="Black versions"
-        />
-      </div>
+    <div class="hidden mt-8 text-center lg:block">
+      <swiper class="swiper swiper-custommers h-36" :options="swiperOptionDesktop">
+        <swiper-slide
+          class="flex justify-center items-center"
+          v-for="(item, i) in list"
+          :key="i"
+        >
+          <img
+            :src="require(`@/assets/images/custommers/${item}`)"
+            alt="Black versions"
+          />
+        </swiper-slide>
+      </swiper>
     </div>
   </section>
 </template>
@@ -74,6 +74,13 @@ export default {
         "el-mercadon.svg",
         "Auren.svg",
         "red-digital.svg",
+        'go-pay.svg',
+        'orbital-elevadores.svg',
+        'ea-t.svg',
+        'belma.svg',
+        'sin-editor.svg',
+        'segurloc.svg',
+        'south-america-antarctica.svg'
       ],
       swiperOption: {
         slidesPerView: 3,
@@ -92,6 +99,11 @@ export default {
           el: ".swiper-pagination",
           clickable: true,
         },
+      },
+      swiperOptionDesktop: {
+        slidesPerView: 5,
+        spaceBetween: 25,
+        loop: true
       }
     };
   },

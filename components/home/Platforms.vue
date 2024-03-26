@@ -52,10 +52,11 @@ export default {
           nextEl: ".swiper-custom-next",
           prevEl: ".swiper-custom-prev",
         },
-        // autoplay: {
-        //   delay: 2500,
-        //   disableOnInteraction: false
-        // }
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
+        loop: true
       },
       platformsList: [
         {

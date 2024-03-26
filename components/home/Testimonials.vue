@@ -82,7 +82,8 @@ export default {
         autoplay: {
           delay: 2500,
           disableOnInteraction: false
-        }
+        },
+        loop: true
       },
       swiperOptionDesktop: {
         slidesPerView: 4,
@@ -94,7 +95,8 @@ export default {
         autoplay: {
           delay: 2500,
           disableOnInteraction: false
-        }
+        },
+        loop: true
       },
     };
   },

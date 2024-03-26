@@ -1,8 +1,8 @@
 <template>
-  <footer class="bg-wize-gray-2 mt-[86px]" data-aos="fade-in">
+  <footer class="bg-wize-gray-2 mt-[86px]">
     <div class="container mx-auto pt-9 flex flex-col lg:flex-row">
       <!-- Col 1 -->
-      <div class="text-white lg:w-[402px]" data-aos="zoom-in">
+      <div class="text-white lg:w-[402px]">
         <h3 class="text-[22px] text-white font-bold mb-[18px]">Wize.pe</h3>
 
         <p class="text-wize-gray-3">
@@ -51,15 +51,15 @@
 
       <!-- Col 2 -->
       <div class="mt-8 lg:ml-16 lg:mt-0">
-        <h3 class="text-[22px] text-white font-bold mb-[18px]" data-aos="zoom-in">Nuestros servicios</h3>
+        <h3 class="text-[22px] text-white font-bold mb-[18px]">Nuestros servicios</h3>
 
         <ul class="text-wize-gray-3 list-disc pl-4 lg:pl-0">
-          <li data-aos="zoom-in" data-aos-delay="500">Branding & Identidad</li>
-          <li class="mt-2" data-aos="zoom-in">Diseño web y de producto</li>
-          <li class="mt-2" data-aos="zoom-in">SEO & SEM</li>
-          <li class="mt-2" data-aos="zoom-in">Desarrollo de software a medida</li>
-          <li class="mt-2" data-aos="zoom-in">Servicios en la nube</li>
-          <li class="mt-2" data-aos="zoom-in">Marketing digital</li>
+          <li>Branding & Identidad</li>
+          <li class="mt-2">Diseño web y de producto</li>
+          <li class="mt-2">SEO & SEM</li>
+          <li class="mt-2">Desarrollo de software a medida</li>
+          <li class="mt-2">Servicios en la nube</li>
+          <li class="mt-2">Marketing digital</li>
         </ul>
       </div>
 
@@ -83,28 +83,28 @@
           </ul>
 
           <div class="flex mt-7">
-            <a href="https://web.facebook.com/wize.pe" target="_blank" data-aos="zoom-in">
+            <a href="https://web.facebook.com/wize.pe" target="_blank">
               <img src="@/assets/images/footer/facebook.svg" alt="Wize - Facebook">
             </a>
 
-            <a href="" class="ml-8" data-aos="zoom-in">
+            <a href="" class="ml-8">
               <img src="@/assets/images/footer/instagram.svg" alt="Wize - Facebook">
             </a>
 
-            <a href="" class="ml-8" data-aos="zoom-in">
+            <a href="" class="ml-8">
               <img src="@/assets/images/footer/tik-tok.svg" alt="Wize - Facebook">
             </a>
           </div>
 
-          <h3 class="text-[22px] text-white font-bold mt-16" data-aos="zoom-in">Contáctanos</h3>
+          <h3 class="text-[22px] text-white font-bold mt-16">Contáctanos</h3>
 
           <div class="mt-[6px]">
-            <div class="flex flex-col" data-aos="zoom-in">
+            <div class="flex flex-col">
               <span class="text-white">R.U.C.</span>
               <span class="text-wize-gray-3">20601681651</span>
             </div>
 
-            <div class="flex flex-col mt-4" data-aos="zoom-in">
+            <div class="flex flex-col mt-4">
               <span class="text-white">Razón Social</span>
               <span class="text-wize-gray-3">WIZE PERU S.A.C.</span>
             </div>

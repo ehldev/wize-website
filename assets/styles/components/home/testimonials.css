@@ -3,7 +3,7 @@
 
   .swiper-custom-prev,
   .swiper-custom-next {
-    @apply w-8 h-8 bg-wize-primary rounded-full absolute top-6 !important;
+    @apply w-8 h-8 bg-wize-dark-2 hover:bg-wize-primary active:bg-wize-primary rounded-full absolute top-6 !important;
 
     &::after {
       content: "" !important;
@@ -16,9 +16,5 @@
 
   .swiper-custom-next {
     @apply right-0 left-auto !important;
-  }
-
-  .swiper-button-disabled {
-    @apply bg-wize-dark-2 opacity-100 cursor-not-allowed !important;
   }
 }
