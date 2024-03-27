@@ -71,7 +71,7 @@ export default {
           id: 2,
           title: "Zet",
           description:
-            "Monta tu tienda online de manera sencilla y empieza a vender en internet, aprovechando una plataforma de comercio electrónico completa y fácil de usar.",
+            "Simplifica la gestión de reclamaciones de tus clientes con ZET, nuestra solución digital que moderniza y agiliza el libro de reclamaciones para comercios.",
           image: "zet.png",
           url: "https://dev.razzil.wize.pe",
         },
