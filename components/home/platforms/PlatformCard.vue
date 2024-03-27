@@ -1,5 +1,5 @@
 <template>
-<article class="platform-card h-auto lg:h-[303px] pt-[21px] px-[21px] flex flex-col lg:flex-row lg:max-w-[725px]">
+<article class="platform-card h-auto lg:h-auto pt-[21px] px-[21px] flex flex-col lg:flex-row lg:max-w-[725px]">
   <div class="flex justify-center lg:block">
     <img :src="require(`@/assets/images/platforms/${data.image}`)" :alt="data.title" class="max-w-[260px] rounded-tl-[14px] rounded-tr-[14px]">
   </div>
