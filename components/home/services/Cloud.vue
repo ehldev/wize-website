@@ -1,7 +1,7 @@
 <template>
   <div class="md:grid md:grid-cols-2 animate__animated animate__fadeIn">
     <div>
-      <h3 class="text-4xl font-semibold"> Marketing Digital</h3>
+      <h3 class="text-4xl font-semibold">Servicios en la Nube</h3>
 
       <p class="md:max-w-[475px]">
         Potencia la esencia de tu empresa con nuestro servicio de Branding e
@@ -12,7 +12,7 @@
       </p>
 
       <ul class="mt-[20px]">
-        <li class="flex mb-1" v-for="(item, i) in list" ::key="i">
+        <li class="flex items-start mb-1" v-for="(item, i) in list" ::key="i">
           <img
             src="@/assets/images/general-icons/tick-circle.svg"
             :alt="item"
@@ -23,23 +23,23 @@
       </ul>
     </div>
 
-    <div>
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" data-aos="zoom-in">
+    <div class="mt-4 md:mt-0">
+      <img src="@/assets/images/services/Cloud-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0">
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Branding",
+  name: "Cloud",
   data() {
     return {
       list: [
-        "Estrategia de Marketing Digital",
-        "Gestión de Redes Sociales",
-        "Email Marketing",
-        "Creación de Contenido",
-        "Marketing de Contenidos"
+        "Google Cloud Platform (GCP)",
+        "Amazon Web Services (AWS)",
+        "Migración a la Nube",
+        "Arquitectura de Soluciones en la Nube",
+        "Seguridad en la Nube"
       ],
     };
   },

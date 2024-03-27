@@ -12,7 +12,7 @@
       >
         <button
           type="button"
-          class="h-[43px] flex justify-center items-center text-white text-base rounded-[100px] px-5"
+          class="h-[43px] flex justify-center items-center text-white text-[15px] rounded-[100px] px-4"
           :class="currentSelection && (item.key == currentSelection.key) ? 'bg-wize-primary text-opacity-100' : 'text-opacity-[0.32]'"
           @click="setCurrentSelection(item)"
           v-for="item in list"
@@ -33,6 +33,7 @@
         <WebDesign :service="currentSelection" v-if="currentSelection.key == 'web-design'" />
         <Seo :service="currentSelection" v-if="currentSelection.key == 'seo'" />
         <Development :service="currentSelection" v-if="currentSelection.key == 'development'" />
+        <Cloud :service="currentSelection" v-if="currentSelection.key == 'cloud'" />
         <Marketing :service="currentSelection" v-if="currentSelection.key == 'marketing'" />
       </article>
     </div>
@@ -44,6 +45,7 @@ import Branding from '@/components/home/services/Branding'
 import WebDesign from '@/components/home/services/WebDesign'
 import Seo from '@/components/home/services/Seo'
 import Development from '@/components/home/services/Development'
+import Cloud from '@/components/home/services/Cloud'
 import Marketing from '@/components/home/services/Marketing'
 
 export default {
@@ -56,7 +58,7 @@ export default {
       list: [
         {
           key: "branding",
-          text: "Branding & Identidad"
+          text: "Branding"
         },
         {
           key: "web-design",
@@ -71,6 +73,10 @@ export default {
           text: "Desarrollo"
         },
         {
+          key: "cloud",
+          text: "Servicios en la nube"
+        },
+        {
           key: "marketing",
           text: "Marketing Digital"
         },
@@ -83,6 +89,7 @@ export default {
     WebDesign,
     Seo,
     Development,
+    Cloud,
     Marketing
   },
   methods: {

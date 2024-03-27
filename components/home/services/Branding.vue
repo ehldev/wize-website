@@ -24,7 +24,7 @@
     </div>
 
     <div class="mt-4 md:mt-0">
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0" data-aos="zoom-in">
+      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0">
     </div>
   </div>
 </template>

@@ -24,7 +24,7 @@
     </div>
 
     <div>
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" data-aos="zoom-in">
+      <img src="@/assets/images/services/Seo-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0">
     </div>
   </div>
 </template>
@@ -35,11 +35,11 @@ export default {
   data() {
     return {
       list: [
-        "Diseño de Logotipo",
-        "Desarrollo de Paleta de Colores Corporativos",
-        "Creación de Tipografía Personalizada",
-        "Diseño de Tarjetas de Presentación y Papelería",
-        "Elaboración de Guías de Estilo de Marca",
+        "Optimización de Motores de Búsqueda (SEO)",
+        "Marketing en Motores de Búsqueda (SEM)",
+        "Análisis y Reporte de SEO",
+        "Gestión de PPC (Pago Por Clic)",
+        "Optimización de la Tasa de Conversión (CRO)"
       ],
     };
   },

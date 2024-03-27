@@ -1,7 +1,7 @@
 <template>
   <div class="md:grid md:grid-cols-2 animate__animated animate__fadeIn">
     <div>
-      <h3 class="text-4xl font-semibold">Desarrollo</h3>
+      <h3 class="text-4xl font-semibold">Desarrollo de Software a Medida</h3>
 
       <p class="md:max-w-[475px]">
         Potencia la esencia de tu empresa con nuestro servicio de Branding e
@@ -24,7 +24,7 @@
     </div>
 
     <div>
-      <img src="@/assets/images/services/Branding-description.svg" :alt="service.text" data-aos="zoom-in">
+      <img src="@/assets/images/services/Development-description.svg" :alt="service.text" class="md:absolute md:bottom-0 md:right-0">
     </div>
   </div>
 </template>
@@ -35,11 +35,11 @@ export default {
   data() {
     return {
       list: [
-        "Diseño de Logotipo",
-        "Desarrollo de Paleta de Colores Corporativos",
-        "Creación de Tipografía Personalizada",
-        "Diseño de Tarjetas de Presentación y Papelería",
-        "Elaboración de Guías de Estilo de Marca",
+        "Soluciones de Software Personalizadas",
+        "Integración de Sistemas",
+        "Desarrollo de Aplicaciones Móviles",
+        "Desarrollo de Aplicaciones Web",
+        "Consultoría Tecnológica",
       ],
     };
   },
