@@ -46,27 +46,27 @@ export default {
         {
           title: 'Colaboración',
           description: 'Uniendo talentos para alcanzar logros extraordinarios.',
-          icon: 'creativity.svg'
+          icon: 'team.svg'
         },
         {
           title: 'Excelencia',
           description: 'Superando estándares, entregando lo excepcional.',
-          icon: 'creativity.svg'
+          icon: 'bard-line.svg'
         },
         {
           title: 'Innovación',
           description: 'Transformando ideas en soluciones revolucionarias.',
-          icon: 'creativity.svg'
+          icon: 'lightbulb-flash-line.svg'
         },
         {
           title: 'Integridad',
           description: 'Actuando con honestidad y transparencia en todo momento.',
-          icon: 'creativity.svg'
+          icon: 'service-line.svg'
         },
         {
           title: 'Sostenibilidad',
           description: 'Impulsando el cambio hacia un futuro más verde y responsable.',
-          icon: 'creativity.svg'
+          icon: 'leaf-line.svg'
         }
       ]
     }
