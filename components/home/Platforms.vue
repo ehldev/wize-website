@@ -64,15 +64,15 @@ export default {
           title: "RAZZIL",
           description:
             "Monta tu tienda online de manera sencilla y empieza a vender en internet, aprovechando una plataforma de comercio electrónico completa y fácil de usar.",
-          image: "razzil.svg",
+          image: "razzil.png",
           url: "https://dev.razzil.wize.pe",
         },
         {
           id: 2,
-          title: "Naga",
+          title: "Zet",
           description:
             "Monta tu tienda online de manera sencilla y empieza a vender en internet, aprovechando una plataforma de comercio electrónico completa y fácil de usar.",
-          image: "naga.png",
+          image: "zet.png",
           url: "https://dev.razzil.wize.pe",
         },
       ],
